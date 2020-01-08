@@ -14,5 +14,15 @@ module.exports = {
         config: md => {
             md.use(require('markdown-it-plantuml'))
         }
-    }
+    },
+    head: [
+        ['link', { rel: 'icon', href: `/images/logo-144.png` }],
+        ['link', { rel: 'manifest', href: '/manifest.json' }]
+    ],
+    plugins: [
+        ['@vuepress/pwa', {
+            serviceWorker: true,
+            updatePopup: true
+        }]
+    ]
 }
