@@ -23,6 +23,15 @@ module.exports = {
                         'vuepress/image-caption',
                     ]
                 },
+                {
+                    title: 'kubernetes',
+                    path: '/logs/',
+                    collapsable: false,
+                    sidebarDepth: 3,
+                    children: [
+                        'kubernetes/',
+                    ]
+                },
             ],
             '/til/': [
                 {
