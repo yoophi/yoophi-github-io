@@ -7,6 +7,7 @@ module.exports = {
             { text: 'About', link: '/about/' },
             { text: 'TIL', link: '/til/' },
             { text: '문서', link: '/docs/' },
+            { text: 'PlantUML', link: '/plantuml/' },
             { text: 'GitHub', link: 'https://github.com/yoophi' },
           ],      
         sidebar: {
