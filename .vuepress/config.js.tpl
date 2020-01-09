@@ -20,6 +20,7 @@ module.exports = {
                     sidebarDepth: 2,
                     children: [
                         'vuepress/todo',
+                        'vuepress/image-caption',
                     ]
                 },
             ],

@@ -8,4 +8,4 @@
 강아지는 복실이고, (중간에 전화번호가 보이네요)
 LinkedIn 주소는 <https://www.linkedin.com/in/yoophi/> 입니다.
 
-![복실](/images/boksil/IMG_7710.jpg)
+![복실](/images/boksil/IMG_7710.jpg)*얘가 복실이 입니다.*
