@@ -1,7 +1,14 @@
 #!/usr/bin/env sh
 
+CONFIG=./.vuepress/config.js
+CONFIG_TEMPLATE=./.vuepress/config.js.tpl
+
 # abort on errors
 set -e
+
+# generate config file from template
+export $(egrep -v '^#' .env | xargs)
+eval "echo \"$(cat $CONFIG_TEMPLATE)\"" > $CONFIG
 
 # build
 rm -fr ./.vuepress/dist && npm run build
