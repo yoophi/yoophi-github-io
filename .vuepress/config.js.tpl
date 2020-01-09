@@ -17,7 +17,7 @@ module.exports = {
                     title: 'vuepress',
                     path: '/logs/',
                     collapsable: false,
-                    sidebarDepth: 2,
+                    sidebarDepth: 3,
                     children: [
                         'vuepress/todo',
                         'vuepress/image-caption',
@@ -29,7 +29,7 @@ module.exports = {
                     title: 'shell script',
                     path: '/til/',
                     collapsable: false,
-                    sidebarDepth: 2,
+                    sidebarDepth: 3,
                     children: [
                         'eval-dotenv',
                         'create-file-from-template',
@@ -39,7 +39,7 @@ module.exports = {
                     title: 'utilities',
                     path: '/til/',
                     collapsable: false,
-                    sidebarDepth: 2,
+                    sidebarDepth: 3,
                     children: [
                         'utils/confd-with-env'
                     ]
