@@ -10,6 +10,11 @@ set -e
 export $(egrep -v '^#' .env | xargs)
 eval "echo \"$(cat $CONFIG_TEMPLATE)\"" > $CONFIG
 
+if [ $# -ne 0 ]; then
+    echo "Extra arguments provided"
+    exit 1
+fi
+
 # build
 rm -fr ./.vuepress/dist && npm run build
 
