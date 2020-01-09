@@ -5,12 +5,24 @@ module.exports = {
         nav: [
             { text: 'Home', link: '/' },
             { text: 'About', link: '/about/' },
+            { text: 'Logs', link: '/logs/' },
             { text: 'TIL', link: '/til/' },
             { text: '문서', link: '/docs/' },
             { text: 'PlantUML', link: '/plantuml/' },
             { text: 'GitHub', link: 'https://github.com/yoophi' },
           ],      
         sidebar: {
+            '/logs/': [
+                {
+                    title: 'vuepress',
+                    path: '/logs/',
+                    collapsable: false,
+                    sidebarDepth: 2,
+                    children: [
+                        'vuepress/todo',
+                    ]
+                },
+            ],
             '/til/': [
                 {
                     title: 'shell script',
