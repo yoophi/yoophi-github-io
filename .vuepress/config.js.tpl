@@ -61,6 +61,7 @@ module.exports = {
     markdown: {
         config: md => {
             md.use(require('markdown-it-plantuml'))
+            md.use(require('markdown-it-imsize'))
         }
     },
     head: [

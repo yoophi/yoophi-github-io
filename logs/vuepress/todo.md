@@ -13,9 +13,9 @@
 - Disqus 댓글 달기 
 - Sitemap 붙이기 
 - 커스텀 테마 만들기 
-- 이미지 크기 조정할 수 있는 markdown 확정 설치 
 - `tailwind.css` 연동하기
 
 ## 해결했고, 글로 작성할 것
 
 - PlantUML 연동 방법 글쓰기 
+- 이미지 크기 조정할 수 있는 markdown 확장 설치 
