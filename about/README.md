@@ -12,5 +12,5 @@
 ----
 
 [![test](/assets/twitter.png =36x36)](https://twitter.com/yoophi)
-[![test](/assets/instagram.png =36x36)](https://instagram.com/boksil)
+[![test](/assets/instagram.png =36x36)](https://instagram.com/boksil.yoo)
 [![test](/assets/linkedin.png =36x36)](https://www.linkedin.com/in/yoophi/)
