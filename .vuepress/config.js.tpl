@@ -66,8 +66,9 @@ module.exports = {
         }
     },
     head: [
-        ['link', { rel: 'icon', href: '/images/logo-144.png' }],
-        ['link', { rel: 'manifest', href: '/manifest.json' }]
+        ['link', { rel: 'manifest', href: '/manifest.json' }],
+        ['link', { rel: 'icon', href: '/assets/favicons/logo-144.png' }],
+        ['link', { rel: 'apple-touch-icon', sizes: '180x180', href: '/assets/favicons/apple-touch-icon.png'}],
     ],
     plugins: [
         ['@vuepress/pwa', {
