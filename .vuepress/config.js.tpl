@@ -19,6 +19,7 @@ module.exports = {
                     collapsable: false,
                     sidebarDepth: 3,
                     children: [
+                        'vuepress/',
                         'vuepress/todo',
                         'vuepress/image-caption',
                     ]
