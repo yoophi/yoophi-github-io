@@ -63,6 +63,21 @@ module.exports = {
         config: md => {
             md.use(require("markdown-it-plantuml"))
             md.use(require("markdown-it-imsize"))
+            md.use(require('markdown-it-hashtag'))
+
+            md.renderer.rules.hashtag_open  = function(tokens, idx) {
+                var tagName = tokens[idx].content.toLowerCase(); 
+                
+                return '<a href="/tags/' + tagName + '" class="tag">';
+            }
+
+            md.renderer.rules.hashtag_text = function (tokens, idx) {
+                var tagName = tokens[idx].content.toLowerCase(); 
+
+                return '#' + tagName;
+            }
+
+            md.renderer.rules.hashtag_close = function () { return '</a>'; }
         }
     },
     head: [
