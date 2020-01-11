@@ -1,0 +1,7 @@
+[template]
+src = "config.js.tpl"
+dest = "./.vuepress/config.js"
+keys = [
+    "/google/analytics/id"
+]
+

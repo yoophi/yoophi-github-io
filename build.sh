@@ -3,12 +3,15 @@
 CONFIG=./.vuepress/config.js
 CONFIG_TEMPLATE=./.vuepress/config.js.tpl
 
+CONFD_CLI=confd
+
 # abort on errors
 set -e
 
+command -v ${CONFD_CLI} >/dev/null 2>&1 || { echo >&2 "I require confd but it's not installed. Please download 'https://github.com/kelseyhightower/confd'."; exit 1; }
+
 # generate config file from template
-export $(egrep -v '^#' .env | xargs)
-eval "echo \"$(cat $CONFIG_TEMPLATE)\"" > $CONFIG
+eval $(egrep -v '^#' .env | xargs) $CONFD_CLI -confdir confd -onetime -backend env
 
 if [ $# -ne 0 ]; then
     echo "Extra arguments provided"
