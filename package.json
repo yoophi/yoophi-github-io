@@ -10,6 +10,7 @@
     "markdown-it-hashtag": "^0.4.0",
     "markdown-it-imsize": "^2.0.1",
     "markdown-it-plantuml": "^1.4.1",
+    "underscore": "^1.9.2",
     "vuepress": "^0.14.11"
   },
   "license": "MIT"

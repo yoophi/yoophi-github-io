@@ -67,8 +67,8 @@ module.exports = {
 
             md.renderer.rules.hashtag_open  = function(tokens, idx) {
                 var tagName = tokens[idx].content.toLowerCase(); 
-                
-                return '<a href="/tags/' + tagName + '" class="tag">';
+
+                return '<a href="/tags.html#' + tagName + '" class="tag">';
             }
 
             md.renderer.rules.hashtag_text = function (tokens, idx) {

@@ -1,3 +1,8 @@
+---
+tags:
+  - boksil
+---
+
 # about
 
 사이트 이름이 `UNDEFINED` 인 것은, 예상하셨듯이 이름 짓기 귀찮아서 입니다. <br />
@@ -14,3 +19,5 @@
 [![test](/assets/twitter.png =36x36)](https://twitter.com/yoophi)
 [![test](/assets/instagram.png =36x36)](https://instagram.com/boksil.yoo)
 [![test](/assets/linkedin.png =36x36)](https://www.linkedin.com/in/yoophi/)
+
+<TagLinks/>
