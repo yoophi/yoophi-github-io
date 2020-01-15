@@ -6,12 +6,26 @@ module.exports = {
             { text: "Home", link: "/" },
             { text: "About", link: "/about/" },
             { text: "Logs", link: "/logs/" },
+            { text: 'Drafts', link: '/drafts/' },
             { text: "TIL", link: "/til/" },
             { text: "문서", link: "/docs/" },
             { text: "PlantUML", link: "/plantuml/" },
             { text: "GitHub", link: "https://github.com/yoophi" },
         ],
         sidebar: {
+            '/drafts/': [
+                {
+                    title: 'Drafts',
+                    path: '/drafts/',
+                    collapsable: false,
+                    sidebarDepth: 3,
+                    children: [
+                        '',
+                        'kops',
+                        'terraform-cidrsubnet',
+                    ]
+                },
+            ],
             "/logs/": [
                 {
                     title: "vuepress",
