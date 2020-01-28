@@ -67,7 +67,16 @@ module.exports = {
                     children: [
                         "utils/confd-with-env"
                     ]
-                }
+                },
+                {
+                    title: "tips",
+                    path: "/til/",
+                    collapsable: false,
+                    sidebarDepth: 3,
+                    children: [
+                        "tips/hide-default-interactive-shell-is-message",
+                    ]
+                },
             ]
         }
     },
