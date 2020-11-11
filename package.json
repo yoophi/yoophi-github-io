@@ -13,5 +13,9 @@
     "underscore": "^1.9.2",
     "vuepress": "^0.14.11"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "markdown-it": "^11.0.0",
+    "markdown-it-wikilinks": "^1.0.1"
+  }
 }
